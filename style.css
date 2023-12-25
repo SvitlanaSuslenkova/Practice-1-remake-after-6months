@@ -1,0 +1,180 @@
+.attribution { font-size: 11px; text-align: center;  position: fixed;
+    bottom:0;}
+.attribution a { color: hsl(228, 45%, 44%);}
+      * {box-sizing: border-box;}
+body {
+    font-family: 'Hanken Grotesk','Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0; 
+    display: grid;
+    justify-items: center;
+  }
+main {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+.purple {
+    display: block;
+    width: 100%;
+    height: 356px;
+    border-radius: 0px 0px 29px 29px; 
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+}     
+.white {
+    width: 100%;
+    padding: 30px;
+    max-width: 450px;
+}
+.yourresult {
+    display: block;
+    font-size: 18px;
+    margin-top: 24px;              
+    font-weight: normal;
+    word-spacing: -1.5px;
+    color: hsl(241, 100%, 89%);
+  }
+  .circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    margin-inline: auto;
+    display: grid;
+    align-items: center;
+   } 
+  h1 {
+    font-size: 56px; 
+    margin-top: 23px; 
+    margin-bottom: 0; 
+    color: #FFFFFF; 
+  } 
+  .of {
+   font-size: 15px;
+   line-height: 4.3;
+   color: hsl(241, 100%, 80%);
+   margin-top: -24px;
+   }      
+   .greatyou{
+    margin: auto;
+    width: 255px;
+    height: 120px;    
+    }   
+h2 {
+    visibility: hidden;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;  
+    margin-top: 25px;
+}     
+.youscored {
+    visibility: hidden;
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+    margin-top: -8px;
+    word-spacing: 2px;
+}
+.summary {
+    font-size: 18px;  
+    letter-spacing: 0px;
+    color: hsl(224, 30%, 27%);
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+.contain {
+    display: grid;
+    grid-template-rows: 56px 56px 56px 56px 64px;
+    row-gap: 16px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 1px;
+    border-radius: 14px;
+    background-image: url(border2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+    align-items: center;
+}
+.results {
+    border-radius: 14px; 
+    height: 100%;
+    max-height: 53px;
+    display: grid;
+    align-content: center;
+    padding: 16px;
+    grid-template-columns: 10% 50% 40%;
+    overflow: visible;
+}
+.icon {height: 20px;}
+.resultnumbers {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+}   
+.resultpercent {color: hsl(224, 30%, 27%);}
+.onehundred {color: hsl(231, 7%, 66%, 100%);}
+button {
+    cursor: pointer;
+    margin-top: 8px;
+    display: grid;
+    background-color: #444E69;
+    border-radius: 28px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 0;
+    color: #FFFFFF;   
+  }
+button:hover {background-image: linear-gradient(#6442FB, #382FEC);}
+@media screen and (min-width: 450px) {
+.purple {border-radius: 0 0 18vw 18vw/ 0 0 26vw 26vw;}}
+
+@media screen and (min-width: 736px) {
+    body {
+        display: grid;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+main {
+    width: 736px;
+    max-height: 512px;
+    border-radius: 29px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:auto;
+    height: auto;
+    margin: 0;
+    box-shadow: 8px 8px 32px  hsl(241, 81%, 54%, 10%);
+}
+.purple, .white {
+border-radius: 29px;
+height: 100%;}
+.yourresult {margin-top: 32px;}
+.summary, .yourresult {
+    font-size: 23px;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+}
+  .circle {
+    width: 200px;
+    height: 200px;
+    padding: 36px;
+    overflow: visible;
+  } 
+  .of {font-size: 18px;}    
+  h1 {
+    margin-top: 36px;
+    margin-bottom: 16px;
+    line-height: 0.5;
+    font-size: 69px; 
+    font-weight: 800;
+    color: #FFFFFF; 
+  }
+  .youscored {font-size: 18px;}}

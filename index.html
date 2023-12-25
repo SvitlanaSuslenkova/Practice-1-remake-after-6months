@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">  
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+<main>
+<!--Left purple side-->
+ <section class="purple">
+   <div>
+   <p class="yourresult">Your Result</p>
+   </div>
+  
+ <div class="circle"> 
+  <h1></h1>
+  <p class="of">of 100</p>
+ </div>
+
+ <div class="greatyou">
+  <h2>Great</h2>
+  <p class="youscored">You scored higher than 65% of the people who have taken these tests.</p>
+ </div>
+</section>
+
+
+<!--Right white side-->
+<section class="white">
+<h2 class="summary">Summary</h2>
+
+<div class="contain">
+<div class="grid-container" >
+<div class="results" style="background-color:#FFF7F6; color: hsl(0, 100%, 67%);"> 
+  <img class="icon" src="icon-reaction.svg" alt=""> 
+  <span>Reaction</span>
+  <div class="resultnumbers">
+  <span class="resultpercent">0</span>
+  <span class="onehundred">/ 100</span>
+</div>
+ </div>
+</div>
+
+<div class="grid-container" >
+
+  <div class="results"  style="background-color:#FFFBF3; color: hsl(39, 100%, 56%);"> 
+    <img class="icon" src="icon-memory.svg" alt=""> 
+    <span>Memory</span>
+    <div class="resultnumbers">
+    <span class="resultpercent">0</span>
+    <span class="onehundred">/ 100</span>
+  </div>
+   </div>
+  </div>
+
+
+ <div class="grid-container" >
+  <div class="results"  style="background-color:#F3FBFA; color: hsl(166, 100%, 37%);"> 
+    <img class="icon" src="icon-verbal.svg" alt=""> 
+    <span>Verbal</span>
+    <div class="resultnumbers">
+    <span class="resultpercent">0</span>
+    <span class="onehundred">/ 100</span>
+  </div>
+   </div>
+  </div>
+
+ <div class="grid-container" >
+  <div class="results"  style="background-color:#F4F4FD; color: hsl(234, 85%, 45%);"> 
+    <img class="icon" src="icon-visual.svg" alt=""> 
+    <span>Visual</span>
+    <div class="resultnumbers">
+    <span class="resultpercent">0</span>
+    <span class="onehundred">/ 100</span>
+  </div>
+   </div>
+  </div>
+  <button>Continue</button>
+</div>
+</section>
+</main> 
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Svitlana Suslenkova</a>.
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
