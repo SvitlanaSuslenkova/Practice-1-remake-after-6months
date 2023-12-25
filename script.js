@@ -4,7 +4,7 @@ let yourResulth1 = document.querySelector("h1");
 let great = document.querySelector("h2");
 let youscored = document.querySelector(".youscored");
 
-fetch('data.json')
+fetch('./data.json')
 .then(response => response.json())
 .then(scores=>myScores(scores))
 .catch(error => console.log(error));
